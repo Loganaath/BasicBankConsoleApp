@@ -183,7 +183,7 @@ if __name__ == "__main__":
                     CheckBalance()
                 elif Lower == 'details':
                     ShowDetails()
-                elif Lower == 'quit':
+                elif Lower == 'quit': #need to be improved
                     break
 
     for i in check:
@@ -210,8 +210,9 @@ if __name__ == "__main__":
 
                 if new_customer == lists[0]:
                     CreateAccount()
-                    features()
+                    features() #need to be improved
 
                 if new_customer == lists[1]:
                     break
+
 
