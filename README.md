@@ -15,3 +15,12 @@ pip install -r requirements.txt
 After Installing the packages, run:
 
 python project.py
+
+# Functionalities
+
+Creates a bank account, creates a data.csv file and creates a acc_number.txt file
+
+data.csv contains the public data
+acc_number.txt contains Name and AccountNumber
+
+Has features like deposit, withdraw, balance check and user details.
