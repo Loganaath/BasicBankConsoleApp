@@ -23,7 +23,7 @@ def CreateAccount(): #need to be improved
             print("Minimum Initial Deposit is 1000 Rupees...")
         account_number = GenerateAccountNumber()
 
-        with open("./acc_number.txt", 'a') as file:
+        with open("./acc_number.txt", 'a', encoding='utf-8') as file:
             file.write(f"{name} {account_number}\n")
 
 
@@ -214,3 +214,4 @@ if __name__ == "__main__":
 
                 if new_customer == lists[1]:
                     break
+
