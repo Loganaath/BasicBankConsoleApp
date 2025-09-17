@@ -208,11 +208,12 @@ if __name__ == "__main__":
                 Lower = new_customer.lower()
                 lists = ['create', 'quit']
 
-                if new_customer == lists[0]:
-                    CreateAccount()
-                    features() #need to be improved
+                if Lower in lists:
+                    if Lower == lists[0]:
+                        CreateAccount()
+                        features()
+                    if Lower == lists[1]:
+                        break
 
-                if new_customer == lists[1]:
-                    break
 
 
